@@ -1,0 +1,343 @@
+{
+    "extends": "./TsConfigBase",
+    "compilerOptions": {
+        "paths": {
+            "Accounts": [
+                "src/Modules/Accounts/Exports"
+            ],
+            "AdvertisementParts": [
+                "src/Components/AdvertisementParts/Exports"
+            ],
+            "Advertisements": [
+                "src/Modules/Advertisements/Exports"
+            ],
+            "AdvertisementsParts": [
+                "src/Components/AdvertisementsParts/Exports"
+            ],
+            "Attributes": [
+                "src/Modules/Attributes/Exports"
+            ],
+            "Base": [
+                "src/Base/Exports"
+            ],
+            "Blog": [
+                "src/Modules/Blog/Exports"
+            ],
+            "BlogParts": [
+                "src/Components/BlogParts/Exports"
+            ],
+            "BoardParts": [
+                "src/Components/BoardParts/Exports"
+            ],
+            "BrandParts": [
+                "src/Components/BrandParts/Exports"
+            ],
+            "Brands": [
+                "src/Modules/Brands/Exports"
+            ],
+            "BrandsParts": [
+                "src/Components/BrandsParts/Exports"
+            ],
+            "CartParts": [
+                "src/Components/CartParts/Exports"
+            ],
+            "CheckoutParts": [
+                "src/Components/CheckoutParts/Exports"
+            ],
+            "Collaboration": [
+                "src/Modules/Collaboration/Exports"
+            ],
+            "Companies": [
+                "src/Modules/Companies/Exports"
+            ],
+            "CompaniesParts": [
+                "src/Components/CompaniesParts/Exports"
+            ],
+            "CompanyParts": [
+                "src/Components/CompanyParts/Exports"
+            ],
+            "CompareParts": [
+                "src/Components/CompareParts/Exports"
+            ],
+            "Contact": [
+                "src/Components/Contact/Exports"
+            ],
+            "Contacts": [
+                "src/Modules/Contacts/Exports"
+            ],
+            "ContentPolicies": [
+                "src/Modules/ContentPolicies/Exports"
+            ],
+            "Contents": [
+                "src/Modules/Contents/Exports"
+            ],
+            "Contracts": [
+                "src/Modules/Contracts/Exports"
+            ],
+            "CourseParts": [
+                "src/Components/CourseParts/Exports"
+            ],
+            "Courses": [
+                "src/Modules/Courses/Exports"
+            ],
+            "CoursesParts": [
+                "src/Components/CoursesParts/Exports"
+            ],
+            "Currencies": [
+                "src/Modules/Currencies/Exports"
+            ],
+            "Dashboard": [
+                "src/Components/Dashboard/Exports"
+            ],
+            "DiscussionParts": [
+                "src/Components/DiscussionParts/Exports"
+            ],
+            "EntryParts": [
+                "src/Components/EntryParts/Exports"
+            ],
+            "EpisodeParts": [
+                "src/Components/EpisodeParts/Exports"
+            ],
+            "Events": [
+                "src/Modules/Events/Exports"
+            ],
+            "EventsParts": [
+                "src/Components/EventsParts/Exports"
+            ],
+            "Flashcards": [
+                "src/Modules/Flashcards/Exports"
+            ],
+            "FlowParts": [
+                "src/Components/FlowParts/Exports"
+            ],
+            "Flows": [
+                "src/Modules/Flows/Exports"
+            ],
+            "Forms": [
+                "src/Modules/Forms/Exports"
+            ],
+            "ForumParts": [
+                "src/Components/ForumParts/Exports"
+            ],
+            "Forums": [
+                "src/Modules/Forums/Exports"
+            ],
+            "Galleries": [
+                "src/Modules/Galleries/Exports"
+            ],
+            "GalleriesParts": [
+                "src/Components/GalleriesParts/Exports"
+            ],
+            "GalleryParts": [
+                "src/Components/GalleryParts/Exports"
+            ],
+            "Geo": [
+                "src/Modules/Geo/Exports"
+            ],
+            "Globalization": [
+                "src/Modules/Globalization/Exports"
+            ],
+            "Glossary": [
+                "src/Modules/Glossary/Exports"
+            ],
+            "GlossaryParts": [
+                "src/Components/GlossaryParts/Exports"
+            ],
+            "Index": [
+                "src/Components/Index/Exports"
+            ],
+            "InstructorParts": [
+                "src/Components/InstructorParts/Exports"
+            ],
+            "InvoiceParts": [
+                "src/Components/InvoiceParts/Exports"
+            ],
+            "Layout": [
+                "src/Components/Layout/Exports"
+            ],
+            "LetterHeads": [
+                "src/Components/LetterHeads/Exports"
+            ],
+            "Loaders": [
+                "src/Loaders"
+            ],
+            "Management": [
+                "src/Components/Management/Exports"
+            ],
+            "Media": [
+                "src/Modules/Media/Exports"
+            ],
+            "Modules": [
+                "src/Modules/Modules/Exports"
+            ],
+            "Navigation": [
+                "src/Modules/Navigation/Exports"
+            ],
+            "NewTaxonomy": [
+                "src/Modules/NewTaxonomy/Exports"
+            ],
+            "Orders": [
+                "src/Modules/Orders/Exports"
+            ],
+            "Organization": [
+                "src/Modules/Organization/Exports"
+            ],
+            "PackageParts": [
+                "src/Components/PackageParts/Exports"
+            ],
+            "PackagesParts": [
+                "src/Components/PackagesParts/Exports"
+            ],
+            "PageParts": [
+                "src/Components/PageParts/Exports"
+            ],
+            "PaginationBehaviors": [
+                "src/PaginationBehaviors"
+            ],
+            "Payment": [
+                "src/Modules/Payment/Exports"
+            ],
+            "PaymentParts": [
+                "src/Components/PaymentParts/Exports"
+            ],
+            "Payroll": [
+                "src/Modules/Payroll/Exports"
+            ],
+            "Podcast": [
+                "src/Modules/Podcast/Exports"
+            ],
+            "PodcastParts": [
+                "src/Components/PodcastParts/Exports"
+            ],
+            "PostParts": [
+                "src/Components/PostParts/Exports"
+            ],
+            "PriceListParts": [
+                "src/Components/PriceListParts/Exports"
+            ],
+            "Pricing": [
+                "src/Modules/Pricing/Exports"
+            ],
+            "ProductParts": [
+                "src/Components/ProductParts/Exports"
+            ],
+            "ProductVariantsParts": [
+                "src/Components/ProductVariantsParts/Exports"
+            ],
+            "Products": [
+                "src/Modules/Products/Exports"
+            ],
+            "ProductsParts": [
+                "src/Components/ProductsParts/Exports"
+            ],
+            "ProjectParts": [
+                "src/Components/ProjectParts/Exports"
+            ],
+            "Projects": [
+                "src/Modules/Projects/Exports"
+            ],
+            "ProjectsParts": [
+                "src/Components/ProjectsParts/Exports"
+            ],
+            "QuestionParts": [
+                "src/Components/QuestionParts/Exports"
+            ],
+            "Questions": [
+                "src/Modules/Questions/Exports"
+            ],
+            "QuestionsParts": [
+                "src/Components/QuestionsParts/Exports"
+            ],
+            "Qwik": [
+                "node_modules/@builder.io/qwik"
+            ],
+            "QwikCity": [
+                "node_modules/@builder.io/qwik-city"
+            ],
+            "RawMaterial": [
+                "src/Components/RawMaterial/Exports"
+            ],
+            "RichTextComponents": [
+                "src/RichTextComponents"
+            ],
+            "Sales": [
+                "src/Modules/Sales/Exports"
+            ],
+            "Seo": [
+                "src/Modules/Seo/Exports"
+            ],
+            "Services": [
+                "src/Modules/Services/Exports"
+            ],
+            "ServicesParts": [
+                "src/Components/ServicesParts/Exports"
+            ],
+            "Settings": [
+                "src/Modules/Settings/Exports"
+            ],
+            "Shared": [
+                "src/Components/Shared/Exports"
+            ],
+            "Shipment": [
+                "src/Modules/Shipment/Exports"
+            ],
+            "SignInParts": [
+                "src/Components/SignInParts/Exports"
+            ],
+            "Social": [
+                "src/Modules/Social/Exports"
+            ],
+            "SpareParts": [
+                "src/Components/SpareParts/Exports"
+            ],
+            "Subscriptions": [
+                "src/Modules/Subscriptions/Exports"
+            ],
+            "Svg": [
+                "src/Components/Svg/Exports"
+            ],
+            "Tenants": [
+                "src/Modules/Tenants/Exports"
+            ],
+            "Testimonials": [
+                "src/Modules/Testimonials/Exports"
+            ],
+            "TestimonialsParts": [
+                "src/Components/TestimonialsParts/Exports"
+            ],
+            "TruckInvoiceParts": [
+                "src/Components/TruckInvoiceParts/Exports"
+            ],
+            "Trucks": [
+                "src/Modules/Trucks/Exports"
+            ],
+            "Units": [
+                "src/Modules/Units/Exports"
+            ],
+            "VirtualTourParts": [
+                "src/Components/VirtualTourParts/Exports"
+            ],
+            "VirtualToursParts": [
+                "src/Components/VirtualToursParts/Exports"
+            ],
+            "Vlog": [
+                "src/Modules/Vlog/Exports"
+            ],
+            "VlogParts": [
+                "src/Components/VlogParts/Exports"
+            ],
+            "VlogPostParts": [
+                "src/Components/VlogPostParts/Exports"
+            ],
+            "Wallet": [
+                "src/Modules/Wallet/Exports"
+            ],
+            "Warranty": [
+                "src/Modules/Warranty/Exports"
+            ],
+            "WarrantyInquiryParts": [
+                "src/Components/WarrantyInquiryParts/Exports"
+            ]
+        }
+    }
+}

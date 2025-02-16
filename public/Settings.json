@@ -1,0 +1,19 @@
+{
+    "AccountsClient": "Panel",
+    "AccountsRealm": "Development",
+    "AccountsUrl": "https://accounts.pydr.ir",
+    "AugmentOrdersWithAttributes": true,
+    "AugmentOrdersWithFlows": true,
+    "AugmentOrdersWithOrderItems": true,
+    "ChangeLogEnabled": true,
+    "DatabasePassword": "some database password",
+    "DatabaseServer": "database",
+    "DatabaseUser": "some database user",
+    "IsDeveloping": true,
+    "PerformMigrationOnLocalDatabase": false,
+    "SiteUrl": "https://osouli.local",
+    "StorageConnectionString": "",
+    "AuthSecret": "some auth secret",
+    "KeycloakClientSecret": "some client secret",
+    "KeycloakIssuer": "some issuer"
+}
